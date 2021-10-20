@@ -88,8 +88,7 @@ Q & A
 另，删除kernel：-> ``jupyter kernelspec remove 虚拟环境名称`` 
 
 
-* 安装anaconda和python出现问题的同学，建议可以把原来的anaconda卸载了，然后照昨天的流程重新安装一下（建议不要更改默认安装路径），试试行不行，便于大家以后都 on the same page.
-如果你以往的系统用习惯了，你知道怎么调虚拟环境等等的话，那也行
+* 安装anaconda和python出现问题的同学，建议可以把原来的anaconda卸载了，然后照昨天的流程重新安装一下（建议不要更改默认安装路径），试试行不行，便于大家以后都 on the same page. 如果你以往的系统用习惯了，你知道怎么调虚拟环境等等的话，那也行
 
 
 
