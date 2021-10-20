@@ -1,5 +1,5 @@
 Python Study in the International Academic Center of Complex Systems
-=======================================
+---------------------------------------------------------------------------
 
 
 Read the tutorial here:
