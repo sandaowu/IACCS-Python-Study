@@ -18,6 +18,7 @@ Contents
 
 .. toctree::
 
+   study1
    usage
    api
-   study1
+  
