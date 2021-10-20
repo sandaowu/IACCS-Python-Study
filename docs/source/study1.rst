@@ -6,7 +6,7 @@
 介绍 & 安装
 ------------
 **安装Anaconda**
-可参考https://cloud.tencent.com/developer/article/1624458
+可参考 https://cloud.tencent.com/developer/article/1624458
 
 * 下载anaconda https://www.anaconda.com/products/individual
 * 以管理员身份运行、安装：All users；不勾选Add Anaconda to the system PATH environment variable（容易出问题，我们自己添加，如下）；安装时间较长大概15分钟
