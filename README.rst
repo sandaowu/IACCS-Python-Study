@@ -1,9 +1,11 @@
-Template for the Read the Docs tutorial
+Python Study in the International Academic Center of Complex Systems
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
 
 Read the tutorial here:
 
 https://docs.readthedocs.io/en/stable/tutorial/
+
+Read the reStructuredText (reST) tutorial here:
+
+https://zh-sphinx-doc.readthedocs.io/en/latest/rest.html
