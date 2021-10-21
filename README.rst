@@ -1,11 +1,6 @@
 Python Study in the International Academic Center of Complex Systems
----------------------------------------------------------------------------
-
+北京师范大学珠海校区 复杂系统国际科学中心
+--------------------------------------------------------------------------
 
 Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
-
-Read the reStructuredText (reST) tutorial here:
-
-https://zh-sphinx-doc.readthedocs.io/en/latest/rest.html
+https://iaccs-python-study.readthedocs.io/en/latest/
