@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'IACCS-PythonStudy'
+copyright = '2021, IACCS'
+author = 'IACCS'
 
 release = '0.1'
 version = '0.1.0'
