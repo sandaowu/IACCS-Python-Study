@@ -35,6 +35,8 @@ Week 1
 打开Anaconda Prompt -> 输入 ``cd 你的程序所需要放置的目录`` 回车
 （比如 ``cd C:\ErnestLocal\PythonCodes\StudySession1`` ） 
 
+！！！注意：文件夹名称不要有空格（建议在你建任何文件、文件夹的时候都不要有空格，实在需要间隔可以用下划线 _ 或短横杠 - ）
+
 -> 输入 ``jupyter notebook`` （注：Ctrl+C是退出）
 
 -> 点击 ``New`` -> 点击 ``Python 3`` 则进入编译环境
