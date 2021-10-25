@@ -3,7 +3,7 @@ Week 1
 
 .. _introduction:
 
-介绍 & 安装
+介绍 & 安装（Windows 10）
 ------------
 **安装Anaconda**
 可参考 https://cloud.tencent.com/developer/article/1624458
