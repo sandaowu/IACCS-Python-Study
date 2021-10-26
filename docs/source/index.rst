@@ -24,4 +24,5 @@
 .. toctree::
 
    study1
+   study2
   
