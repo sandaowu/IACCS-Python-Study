@@ -37,15 +37,11 @@ Coding
        # 定义一个空列表
 >>>    for i in range(n):
 >>>        thisurl = sc[i].find('p', class_='name').a['href']
+           # 在sc[i]中find对应类中标签为href的对象
 >>>        URLs.append('https://www.xiachufang.com' + thisurl)
+           # 将thisurl与列表中元素'https://www.xiachufang.com'
 >>>    return URLs
-
->>> substr_frequency={}
->>> substr_num=0
->>> for i in range(len(S0)-len(s)+1):
->>>     if S0[i : i+7] == s:    
->>>         substr_num += 1
->>>         substr_frequency[s]= substr_num
+           # 返回URLs
 
 
 python学习参考资料
