@@ -22,7 +22,7 @@ Coding
 
 >>> urlALL = 'https://www.xiachufang.com/explore/'
 
-* 4. 定义函数抓取菜谱中每一道菜做法的网页
+* 4. 定义getReceipURL函数抓取菜谱中每一道菜做法的网页
 
 >>> def getReceipURL(urlAll, n):
 >>>    source = requests.get(urlAll, headers={'user-agent': 'Safari/13.1'}).text
