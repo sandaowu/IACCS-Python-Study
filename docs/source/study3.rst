@@ -7,7 +7,7 @@ Coding
 示例："下厨房"网站的本周最欢迎菜谱数据；网站地址: https://www.xiachufang.com/explore/
 
 * 1. 
-（代码块）
+（代码块
 >>> S0='We come from Jupiter, and we love Jupiter. Where do you come from? Do you love Jupiter.'
 
 * 2. 
