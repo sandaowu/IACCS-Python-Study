@@ -24,6 +24,8 @@ Coding
 
 * 4. 定义getReceipURL函数抓取菜谱中每一道菜做法的网页
 
+# 查找网页的信息，右键“检查”
+
 >>> def getReceipURL(urlAll, n):
 >>>    source = requests.get(urlALL, headers={'user-agent': 'Safari/13.1'}).text
        # 创建source对象。使用.get访问一个urlALL页面，设置了headers，对爬虫的浏览器进行设置，最后以字符串形式返回对象
@@ -45,13 +47,13 @@ Coding
            
 * 4. 输出每一道菜的做法
 
->>> url = URLs[1]
+>>> url = URLs[3]
 >>> [title, ings, steps] = getReceipFromURL(url)
 >>> print(title)
->>>  for i in ings:
-         print(i, ':', ings[i])
->>>  for i in steps:
-         print(i, ':', steps[i])
+>>> for i in ings:
+        print(i, ':', ings[i])
+>>> for i in steps:
+        print(i, ':', steps[i])
 
 
 python学习参考资料
