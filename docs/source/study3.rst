@@ -18,7 +18,9 @@ Coding
 
 >>> import requests
 
-* 3. 
+* 3. 定义需要抓取数据网页的URL
+
+>>> urlALL = 'https://www.xiachufang.com/explore/'
 
 >>> substr_frequency={}
 >>> substr_num=0
