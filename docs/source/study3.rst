@@ -42,6 +42,16 @@ Coding
            # 将thisurl与列表中元素'https://www.xiachufang.com'
 >>>    return URLs
            # 返回URLs
+           
+* 4. 输出每一道菜的做法
+
+>>> url = URLs[1]
+>>> [title, ings, steps] = getReceipFromURL(url)
+>>> print(title)
+>>>  for i in ings:
+         print(i, ':', ings[i])
+>>>  for i in steps:
+         print(i, ':', steps[i])
 
 
 python学习参考资料
