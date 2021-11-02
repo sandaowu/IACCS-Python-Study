@@ -24,15 +24,17 @@ Coding
 
 * 4. 定义getReceipURL函数抓取菜谱中每一道菜做法的网页
 
-# requests用法，详见：https://www.liaoxuefeng.com/wiki/1016959663602400/1183249464292448
-
 >>> def getReceipURL(urlAll, n):
->>>    source = requests.get(urlAll, headers={'user-agent': 'Safari/13.1'}).text
-       # 使用.get访问一个urlALL页面，设置了headers，对爬虫的浏览器进行设置，最后以字符串形式返回对象
+>>>    source = requests.get(urlALL, headers={'user-agent': 'Safari/13.1'}).text
+       # 创建source对象。使用.get访问一个urlALL页面，设置了headers，对爬虫的浏览器进行设置，最后以字符串形式返回对象
 >>>    source = BeautifulSoup(source, "html")
+       # 创建了BeautifulSoup对象
 >>>    receip = source.body.find('div', class_='pure-u-2-3 main-panel')
+       # 在source的body中找到title为div，类为'pure-u-2-3 main-panel'的对象
 >>>    sc = receip.find_all('div', class_='recipe recipe-215-horizontal pure-g image-link display-block')
+       # 在receip中find所有满足条件的对象
 >>>    URLs = []
+       # 定义一个空列表
 >>>    for i in range(n):
 >>>        thisurl = sc[i].find('p', class_='name').a['href']
 >>>        URLs.append('https://www.xiachufang.com' + thisurl)
