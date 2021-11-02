@@ -4,8 +4,7 @@ Coding
 ------------
 **Python网站数据爬虫**
 
-示例："下厨房"网站的本周最欢迎菜谱数据；网站地址
-.. _a link: https://www.xiachufang.com/explore/
+示例："下厨房"网站的本周最欢迎菜谱数据；网站地址: https://www.xiachufang.com/explore/
 
 * 1. 
 （代码块）
