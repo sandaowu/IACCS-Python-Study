@@ -22,10 +22,18 @@ Coding
 
 >>> urlALL = 'https://www.xiachufang.com/explore/'
 
->>> substr_frequency={}
->>> substr_num=0
+* 4. 定义函数抓取菜谱中每一道菜做法的网页
 
-* 4. 
+>>> def getReceipURL(urlAll, n):
+    source = requests.get(urlAll, headers={'user-agent': 'Safari/13.1'}).text
+    source = BeautifulSoup(source, "html")
+    receip = source.body.find('div', class_='pure-u-2-3 main-panel')
+    sc = receip.find_all('div', class_='recipe recipe-215-horizontal pure-g image-link display-block')
+    URLs = []
+    for i in range(n):
+        thisurl = sc[i].find('p', class_='name').a['href']
+        URLs.append('https://www.xiachufang.com' + thisurl)
+    return URLs
 
 >>> substr_frequency={}
 >>> substr_num=0
