@@ -4,7 +4,7 @@ Coding
 ------------
 **Python网站数据爬虫**
 
-
+示例：在字符串S0中，寻找substring(某个单词s)的出现频率，S0= "We come from Jupiter, and we love Jupiter. Where do you come from? Do you love Jupiter."
 
 * 1. 
 （代码块）
