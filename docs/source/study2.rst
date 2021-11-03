@@ -28,7 +28,3 @@ Coding
 >>>         substr_num += 1
 >>>         substr_frequency[s]= substr_num
 
-
-python学习参考资料
--------------
-廖雪峰Python教程 https://www.liaoxuefeng.com/wiki/1016959663602400 
