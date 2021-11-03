@@ -51,11 +51,8 @@ Coding
 >>> [title, ings, steps] = getReceipFromURL(url)
 >>> print(title)
 >>> for i in ings:
-        print(i, ':', ings[i])
+>>>     print(i, ':', ings[i])
 >>> for i in steps:
-        print(i, ':', steps[i])
+>>>     print(i, ':', steps[i])
 
 
-python学习参考资料
--------------
-廖雪峰Python教程 https://www.liaoxuefeng.com/wiki/1016959663602400 
