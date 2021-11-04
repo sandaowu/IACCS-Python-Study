@@ -1,4 +1,4 @@
-Week 2
+寻找重复序列(上) .Week2
 =====
 
 寻找序列重复substring
