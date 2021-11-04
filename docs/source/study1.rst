@@ -1,4 +1,4 @@
-Python安装 .Week1
+Week1. Python安装
 =====
 
 .. _introduction:
