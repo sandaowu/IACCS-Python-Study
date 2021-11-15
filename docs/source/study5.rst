@@ -19,7 +19,7 @@ Week5. 寻找重复序列（终结版）
         
 * 3. 计算每个substr出现的次数,并将出现重复次数大于1的存入字典hist中
 
->>> n=1   #出现的亚结构默认次数为1
+>>> n = 1   #出现的亚结构默认次数为1
 >>> if substr not in hist:
 >>>     for k in range(i+1,len(s)+1):
 >>>         substr_tocompare = s[k:k+len(substr)]
