@@ -14,7 +14,7 @@ Week5. 寻找重复序列（终结版）
 
 >>> for i in range(len(s)):
 >>>     for j in range(i+1,len(s)+1):
->>>         substr = ns[i:j]
+>>>         substr = s[i:j]
 >>>         print(substr)
         
 * 3. 计算每个substr出现的次数,并将出现重复次数大于1的存入字典hist中
