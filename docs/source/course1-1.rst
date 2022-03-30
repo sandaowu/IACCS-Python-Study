@@ -1,7 +1,8 @@
 《复杂科学简介》Vicsek模型（动画）
 ===========
 
-课程视频在B站
+课程视频在B站 https://www.bilibili.com/video/BV1z44y1A7gV?spm_id_from=333.999.0.0
+
 用 Python 从零开始编写 Vicsek模型，模拟群体动物行为::
 
 
