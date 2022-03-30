@@ -4,7 +4,7 @@
 **Python学习小组笔记**
 --------
 
-感谢下列老师同学帮忙整理：李萌(Week4/week6)、刘春秀子(Week1)、王宁宁(Week2)、朱辽(Week3)、邱水寒(Week5)、刘宇(Lecture/Admin)、等
+感谢下列老师同学帮忙整理：李萌(Week4/week6)、刘春秀子(Week1)、王宁宁(Week2)、朱辽(Week3)、邱水寒(Week5)、刘宇(Lecture/Admin) https://www.wuyichen.org/ 、等
 
 
 
