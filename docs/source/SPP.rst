@@ -1,10 +1,7 @@
-《复杂系统入门与实战(Python)》
-
-作业1：Python代码参考
-
+《复杂系统入门与实战(Python)》 作业1
 ===========
 
-::
+Python代码参考::
 
 
   import matplotlib.animation
